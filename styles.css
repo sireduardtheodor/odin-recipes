@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, Times, sans-serif;
+    background-color: #f5f3e9;
+}
+
+.main {
+    text-align: center;
+    color: #9d9183;
+    font-weight: bolder;
+}
+
+.recipe-list a {
+    color: #6f6458;
+}
+
+.secondary {
+    color: #685d51;
+}
