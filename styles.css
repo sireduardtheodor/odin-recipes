@@ -1,18 +1,21 @@
 body {
-    font-family: Georgia, Times, sans-serif;
-    background-color: #f5f3e9;
+    margin: 0px;
+    padding: 0px;
 }
 
-.main {
+.footer {
+    margin: 0;
+    padding: 10px;
+    background-color: #333333;
+    color: #CCCCCC;
     text-align: center;
-    color: #9d9183;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.recipe-list a {
-    color: #6f6458;
-}
-
-.secondary {
-    color: #685d51;
+.page-content {
+    box-sizing: border-box;
+    background-color: #6d4c41;
+    padding: 20px;
+    min-height: calc(100vh - 40px - 20px);z
 }
