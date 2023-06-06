@@ -1,3 +1,8 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 body {
     margin: 0px;
     padding: 0px;
@@ -17,5 +22,27 @@ body {
     box-sizing: border-box;
     background-color: #6d4c41;
     padding: 20px;
-    min-height: calc(100vh - 40px - 20px);z
+    min-height: calc(100vh - 40px - 20px);
+}
+
+.image-a img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+    border: 2px solid #999999;
+    box-shadow: 0 2px 4px #00000033;
+    filter: grayscale(50%);
+}
+
+p {
+    color: #cccccc;
+}
+
+.link-a {
+    display: inline-block;
+    color: #aa3322;
+    background-color: #999999;
+    padding: 15px;
 }
