@@ -1,5 +1,5 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 10px;
     background-color: #333333;
-    color: #CCCCCC;
+    color: #CFCFCF;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -20,15 +20,15 @@ body {
 
 .page-content {
     box-sizing: border-box;
-    background-color: #6d4c41;
+    background-color: #CFCFCF;
     padding: 20px;
     min-height: calc(100vh - 40px - 20px);
 }
 
-.image-a img {
+.page-content img {
     width: 100%;
-    max-width: 400px;
-    height: auto;
+    max-width: 425px;
+    height: 350px;
     margin: 0 auto;
     display: inline-block;
     border: 2px solid #999999;
@@ -37,12 +37,13 @@ body {
 }
 
 p {
-    color: #cccccc;
+    color: #333333;
 }
 
-.link-a {
+.page-content a {
     display: inline-block;
-    color: #aa3322;
-    background-color: #999999;
+    color: #CFCFCF;
+    background-color: #333333;
     padding: 15px;
+    margin-bottom: 20px;
 }
