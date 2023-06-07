@@ -8,14 +8,14 @@ body {
     padding: 0px;
 }
 
-.footer {
+.footer h1 {
     margin: 0;
-    padding: 10px;
+    padding: 25px;
     background-color: #333333;
     color: #CFCFCF;
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .page-content {
@@ -26,18 +26,26 @@ body {
 }
 
 .page-content img {
-    width: 100%;
-    max-width: 425px;
-    height: 350px;
-    margin: 0 auto;
-    display: inline-block;
+    width: 80%;
+    height: auto;
+    display: block;
     border: 2px solid #999999;
     box-shadow: 0 2px 4px #00000033;
     filter: grayscale(50%);
+    margin-bottom: 20px;
 }
 
 p {
     color: #333333;
+    width: 80%;
+    font-size: 18px;
+    display: block;
+}
+
+h2 {
+    color: #000000;
+    width: 80%;
+    font-size: 25px;
 }
 
 .page-content a {
